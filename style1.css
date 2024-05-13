@@ -1,0 +1,9 @@
+body{
+    user-select: none;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 68px;
+}
